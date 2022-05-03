@@ -1,0 +1,21 @@
+h1 {
+    color: blueviolet;
+    
+  }
+h1
+ p {Селектор классов 
+    color: red; 
+   }
+ .prosto-text {
+   color: red; 
+   background-color: yellow; 
+   font-weight: bold; 
+}
+p 
+{
+    widht: 100px;
+    heigth: 50px;
+    padding: 10px
+    border: 1px solid red;
+    margin: 20px;
+  }
