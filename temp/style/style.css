@@ -1,14 +1,25 @@
-/* "Экран 2"*/
+body
+{
+    background-color: aqua;
+    display: inline;
+    justify-content: normal;
+    align-items: center;
+}
+ul
+{
+   display: flex;
+   flex-direction: column;
+   background-color: blueviolet;
+   padding: 50px;
+}
+span #identified 
+{
+    background-color: DodgerBlue;
+}
 
-<section>
- {
- class = "position: absolute";
-indeterminate
- width: 1445px;
- height: 506px;
- left: 0px;
- top: 768px;
- background color #F6F6F6;
- text: black;
- }
-</section>
+.text-paragrafa {
+    color: rgb(27, 10, 106);
+    background-color: yellow;
+    font-weight: bold;
+    
+}
