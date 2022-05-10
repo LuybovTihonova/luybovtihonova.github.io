@@ -28,3 +28,58 @@ span #identified
     font-weight: bold;
     
 }
+
+.spisok-pokupok__hleb {
+    kolichestvo: 1;
+    ves: 500gram; 
+}
+
+.spisok-pokupok__hleb_chernii { 
+    vid: cherni;
+}
+
+.spisok-pokupok__hleb_belii {
+    vid: belii;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.phones {
+    display: flex;
+    flex-direction: column;
+    background-color: #00ff55;
+    padding: 60px;
+    margin: 60px;
+}
+
+.phones__android {
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+.phones__android_zte {
+    color: rgb(255, 0, 183);
+}
+
+.phones__android_samsung {
+    color: rgb(39, 83, 185);
+}
+
+.phones__android_ xiomi {
+    color: rgb(149, 207, 34);    
+}
