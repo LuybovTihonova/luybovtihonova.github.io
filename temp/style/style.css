@@ -1,85 +1,37 @@
-body
-{
-    background-color: aqua;
-    display: inline;
-    justify-content: normal;
-    align-items: center;
-}
-
-ul
-{
-   display: flex;
-   flex-direction: column;
-   background-color: blueviolet;
-   padding: 50px;
-   border: 3px solid red;
-   margin: 30px;
-}
-
-span #identified 
-{
-    background-color: DodgerBlue;
-}
-
-.text-paragrafa
-{
-    color: rgb(27, 10, 106);
-    background-color: yellow;
-    font-weight: bold;
-    
-}
-
-.spisok-pokupok__hleb {
-    kolichestvo: 1;
-    ves: 500gram; 
-}
-
-.spisok-pokupok__hleb_chernii { 
-    vid: cherni;
-}
-
-.spisok-pokupok__hleb_belii {
-    vid: belii;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.phones {
-    display: flex;
-    flex-direction: column;
-    background-color: #00ff55;
-    padding: 60px;
-    margin: 60px;
-}
-
-.phones__android {
-    width: 500px;
-    margin-bottom: 30px;
-}
-
-.phones__android_zte {
-    color: rgb(255, 0, 183);
-}
-
-.phones__android_samsung {
-    color: rgb(39, 83, 185);
-}
-
-.phones__android_ xiomi {
-    color: rgb(149, 207, 34);    
-}
+.note
+  {  color: blue;
+    background-color: coral;
+    right: 30px;
+    left: 80px;
+    font-size: 2cm;
+  }
+.banner 
+  {
+    color: chartreuse;
+    background-color: darkslateblue;
+    font-size: 2cm;
+  }
+.banner__paragraph-first
+   {   
+    position: relative;
+    padding: 30px;
+    border: 20px dashed rgb(0, 255, 17);
+   }
+#uniq_id, #uniq_id2
+  {
+    color: crimson;
+    font-size: 1.5cm;
+    background-color: coral;
+ }
+p 
+  {
+  width: 500px;
+  height: 200px;
+  padding-top: 50px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  padding-left: 70px;
+  border: 2px solid royalblue; 
+  border-block-end-width: 30px;
+  margin: 20px;
+  }
