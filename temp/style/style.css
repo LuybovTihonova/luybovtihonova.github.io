@@ -45,7 +45,7 @@
 .block {
   display: grid;
   place-items: center;
-  height: 100vh;
+  height: 250px;
   background: #000;
  }
  h1{
@@ -54,3 +54,15 @@
   background-color: #2AA5A0;
   background-image: linear-gradient(90deg, #E3535D, #2AA5A0);
  }
+ .text {
+    font-family: 'Gilroy';
+    color:#E3535D;
+    font-size: 40px;
+    transform: translateX(10px) rotate(10deg) translateY(5px);
+    transform: perspective(500px) translate(10px, 0, 20px) rotateY(3deg);
+    font-style: italic;
+    font-weight: bolder;
+    text-decoration: solid underline purple 4px;
+    text-shadow: red 2px 5px;
+    text-align: center;
+  }
